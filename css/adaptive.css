@@ -1,0 +1,544 @@
+@media (max-width: 1320px) {
+    .section1 .section1-left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section1 .section1-left header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        margin-left: 2%;
+        margin-top: 15%;
+    }
+
+    .section1 .section1-left header h2 {
+        margin-bottom: 20px;
+        font-size: 45px;
+        letter-spacing: 7px;
+    }
+    
+    .section1 .section1-left header nav {
+        flex-direction: column;
+    }
+
+    .section1 .section1-left header nav a{
+        padding: 25px 10px;
+        margin: 7px 0;
+        background-color: #706458;
+        color: white;
+        letter-spacing: 3px;
+        text-transform: lowercase;
+        text-align: center;
+    }
+
+    .section1 .section1-left .textbox {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        width: 70%;
+    }
+
+    .section1 .section1-left .textbox h1 {
+        text-align: center;
+    }
+
+      /* poprawa piątek */
+
+      
+    .section1 .section1-right {
+        width: 50%;
+    }
+
+  
+
+    .section1 .section1-right .lamp_img {
+width: 460px;
+height: 600px;
+  }
+
+    /* poprawa piąstek */
+
+    .section1 .section1-right .contact {
+        position: absolute;
+        top: 20px;
+        left: 15px;
+        width: 5%;
+    }
+
+    .section2 {
+        margin-left: -60px;
+    }
+
+    .section2 .bedroom-livingroom .bedroom h2 {
+        left: 3%;
+    }
+
+  
+
+    .section3 {
+        margin-left: -60px;
+    }
+
+    .section4 {
+        margin-left: -60px;
+    }
+
+    .section4 header {
+        flex-direction: column;
+        justify-content: left;
+        align-items: flex-start;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .section4 header .header-left h2 {
+        font-size: 30px;
+        display: block;
+        margin-bottom: 0;
+    }
+
+    .section4 header .header-left p {
+        font-size: 15px;
+    
+    }
+
+    .section4 header .header-left .more {
+        width: 30%;
+    }
+
+     /* poprawa piątek */
+/* 
+     .section4 .pictures  {
+        display: flex;
+        justify-content: center;
+        margin-left: -200px;
+    }
+
+    
+
+     .section4 .pictures .sofa {
+        display: none;
+    } */
+
+    /* poprawa piąstek */
+
+
+    /* poprawa proba 2 */
+
+    .section4 .pictures {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+        margin-left: -200px;
+
+    }
+
+    .section4 .pictures img {
+        width: 20%;
+        height: 40%;
+        margin: 5px 0;
+    }
+
+    .section4 .pictures .sofa {
+        width: 15%;
+        height: 35%;
+        margin: 5px 0;
+    }
+
+
+    /* poprawa proba 2 */
+
+    .section4 .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: left; 
+
+    }
+
+    .section5 {
+    margin-left: -60px;
+    
+    }
+
+    .section5 .section5-main{
+        display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    font-size: 12px;
+    }
+    
+    .section5 .section5-main h2 {
+        display: none;
+    }
+
+
+    .section5 .section5-main .text-img img {
+        display: none;
+    }
+
+}
+
+
+/* poprawa piątek */
+
+@media (max-width:940px) {
+    .section1 .section1-right .lamp_img {
+        width: 330px;
+        height: 450px;
+        
+    }
+    
+}
+
+/* poprawa piątek */
+
+
+
+/* media max-width 610px */
+
+
+
+
+@media (max-width:610px) {
+    .section1 .section1-right {
+        width: 0%;
+    }
+    
+    .section1 .section1-right img {
+        display: none;
+    }
+
+    /* znaczek kontakt przy zadaniu width:0 do div, w ktorym sie znajdowal, zniknal */
+    .section1 .section1-right .contact {
+      position: absolute;   
+      top: 20px;
+      left: 50px;     
+    }
+  
+    .section1 .section1-left .textbox {
+       
+        width: 80%;
+    }
+
+    .section2 {
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .section2 h2 {
+        font-size: 35px;   
+        text-align: center;
+        margin-left: 15%; 
+    }
+
+    .section2 .bedroom-livingroom {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-right: 0;
+    }
+
+    .section2 .bedroom-livingroom p {
+        /* border: 1px solid black; */
+        width: 80%;
+    }
+
+    .section2 .bedroom-livingroom .bedroom{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+
+    .section2 .bedroom-livingroom .bedroom h2 {
+        position: absolute;
+        top: 35%;
+        left: -10%;
+        
+    }
+    
+    .section2 .bedroom-livingroom .bedroom p {
+        position: absolute;
+        top: 0%;
+        left: 15%;
+    }
+    
+    .section2 .bedroom-livingroom .livingroom{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        text-align: center;
+    }
+
+
+    .section2 .bedroom-livingroom .livingroom h2 {
+        position: absolute;
+        top: 35%;
+        left: -10%;
+        
+    }
+    
+    .section2 .bedroom-livingroom .livingroom p {
+        position: absolute;
+        top: 0%;
+        left: 20%;
+    }
+
+    .section2 .next {
+        display: flex;
+        justify-content: left;
+        margin-left: 19%;
+        margin-top: 2%;
+        width: 80%;
+    }
+
+    .section2 .next div{
+        width: 27%;
+        display: flex;
+        justify-content: space-between;  
+    }
+
+
+    .section3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
+    }
+
+    .section3 .left {
+        display: flex;
+        flex-direction: column;
+        margin-left: 20%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;       
+        width: 80%; 
+    }
+
+    .section3 .left h2 {
+        font-size: 35px;
+        color: #706458;
+        margin-top: 0;  
+    }
+
+    .section3 .left .more {
+        display: flex;
+        width: 50%;
+        justify-content: space-between;
+    }
+
+    .section3 .right {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-left: 25%;
+        width: 90%;
+        font-size: small;
+        padding: 5px;
+        box-sizing: border-box;
+        padding-right: 4%;
+        
+    }
+
+
+    .section4 {
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .section4 header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 70%;
+        margin-bottom: 15px;
+        margin-left: 10%;
+    }
+
+    .section4 header .header-left  {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .section4 header .header-left h2 {
+        font-size: 23px;
+        
+        margin-bottom: 0;
+    }
+
+    .section4 header .header-left p {
+        font-size: 10px;
+    
+    }
+
+    .section4 header .header-left .more {
+        width: 30%;
+    }
+
+    .section4 header .header-right {
+        
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+       
+    }
+
+    .section4 header .header-right #subscribe {
+        padding: 6px 14px;     
+    }
+
+
+    .section4 .pictures {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .section4 .pictures img {
+        width: 40%;
+        height: 60%;
+        margin: 5px 0;
+    }
+
+    .section4 .pictures .sofa {
+        width: 40%;
+        height: 60%;
+        margin: 5px 0;
+    }
+
+    .section4 .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 10%;
+    }
+
+    .section4 .footer div h2 {
+        font-size: 30px;
+        width: 30%;
+        
+    }
+    
+    .section4 .footer .text {
+        font-size: 12px;
+        width: 60%;  
+    }
+
+
+    .section5  {
+        padding: 10px;
+           flex-wrap: wrap;
+           box-sizing: border-box;
+       }
+
+    .section5 .section5-main {
+        padding: 10px;
+        display: flex;
+        line-height: 200%;
+        flex-wrap: wrap;
+        margin-left: 0;
+    margin-right: 0;
+    box-sizing: border-box;
+    width: 100%;
+    }
+
+    .section5 .section5-main div {
+        flex-wrap: wrap;
+        width: 20%;
+        font-size: 10px;
+        margin-bottom: 5%;
+   
+    }
+
+    .section5 .section5-main .text-img {
+         margin-top: -15%;
+         margin-right: 30%;
+         width: 25%;
+         display: flex;
+         justify-content: center;
+         box-sizing: border-box;
+    }
+    
+
+
+    .section5 .section5-main .text-img p{
+        
+        height: 15%;
+   }
+
+
+    .section5 .section5-main .text-img .more {
+        
+        width: 150%;
+        
+   }
+
+    .section5 .section5-main .text-img img {
+        display: flex;
+     
+    }
+
+    .section5 .socials {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 70%;
+    
+    }
+
+    .section5 .smalltext  {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section5 .smalltext .agence  {
+       font-size: x-small;
+    }
+
+    .section5 .smalltext .links {
+        width: 90%;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section5 .smalltext .links small {
+        padding: 5px 0;
+    }
+
+}
+ 
